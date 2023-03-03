@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="simpleToDoList.css">
+    <title>Simple To Do List</title>
+</head>
+
+<body>
+    <header>
+        <h3>simple to do list</h3>
+        <div>
+            <button onclick="saveToLocalStorage()">save</button>
+            <button onclick="loadFromLocalStorage()">load</button>
+            <button onclick="deleteLocalStorage()">delete</button>
+        </div>
+    </header>
+
+    <main>
+        <div id="wrap">
+            <ul id="a">
+                <li><input type="text" id="0"></li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>let's do this!!</p>
+    </footer>
+</body>
+
+<script src="simpleToDoList.js"></script>
+
+</html>
